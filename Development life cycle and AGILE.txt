@@ -1,0 +1,129 @@
+        Development life cycle
+
+
+
+-Các giai đoạn
+1.Requirement: Phân tích yêu cầu
+2.Anaylysis: Lập kế hoạch
+3.Design: Thiết kế phần mềm
+4.Implementation: Phát triển phần mềm
+5.Testing: Thử nghiệm
+6.Hand over: Triển khai
+6.1:Publish
+6.2:Measure: Đo đạc
+6.3.Learn
+7.Maintenance: Bảo trì & cập nhập
+
++out source: người khacs thuê làm 1 sp nhưng sp vẫn không phải của mình
++production: là tự làm-không cần thuê
+
+# REQUIRMENT
+-Tham gia:
++ stackholders( người quan tâm giá trị sp ra ngoài-customer)
++ bussiness analysts(người phân tích nghiệp vụ BA)
++ project manager( nhìn quá trình của 1 dự án từ đầu đến cuối -> tạo ra 1 dạng luật chơi:thời hạn, tiến độ thời gian bàn giao)
++ technical team(các Dev, Architec hiểu rõ dự án để điều chỉnh time, nguồn lực)
++ quanlity assurance-QA (cần hiểu requirment để có chiến lược test)
++ designers(UI/UX)  
+-output: requerment documment
+
+# ANALYSTS
+-join:
++ BA (Business analysts): chiếm nh nhất
++ PM (Project manager): Kiểm soát mọi thứ ở trong 1 khoảng thời gian nhất định
++ System analysts/ Architects: lường trước các công nghệ 
++ QA 
+-Output: Các biểu đồ (ngôn ngữ UML thiết kế theo kiểu OOP)
++ case 
++ class
++ sequece
++activity
+
+#DESIGN
+- JOIN:
++ UI/UX designer : thiết kế giao diện hệ thống
++ SA: thiết kế kiến trúc hệ thống , structure, tech stack như thế nào ?, data flow, database design ?, tương tác với hệ thống khác như thế nào?
++ PM
++ High level design 
+- Output: bản mô tả hệ thống một cách chi tiết
+4.Implementation
+- jOIN:
++ PM: kiểm tra tiến độ
++ Developer: Frontend -> source code (Dùng analysis, design UI/UX)
++ Engineer: Backend ->source code(Dùng analysis,system design)
++ Devops
+- Output: source code
+5.Test
+- Join:
++ QA,tester: Kiểm tra các tính năng đã được code có lỗi hay đáp ứng requirment hay không
+- Output:
+- manual test: file excel: Kết quả của từng test case
+- automation test: cypress, robot
+- api test: postman
+Kết quả test
+6.Hand over
+- Join:
++ Stake holder: Customer
++ Traning staff
++ PM
++ QA: lượt test cuối cùng trước khi bàn giao
+- Output: document specialist: hướng dẫn người dùng, tài liệu hệ thống
+7.Maintenance
+-Lúc này lại quay lại trở về từ các bước đầu giống 1 vòng bên trên
+
+
+
+            MÔ HÌNH AGILE
+1.Mô hình Agile là gì?
+- Là triết lý hành động theo các phương châm
+- Là tư duy : “Làm thế nào để nhanh chóng thích ứng/phản hồi với sự thay đổi”
+- Ra đời để giải quyết khó khăn của waterfall
+2. 4 tuyên ngôn của Agile
+- Cá nhân và sự tương tác > quy trình, công cụ
+- Phần mềm chạy tốt > tài liệu đầy đủ	
+- Cộng tác với khách hàng > đàm phán hợp đồng	
+- Phản hồi với sự thay đổi > bám vào kế hoạch
+3. 12 nguyên tắc của Agile
+- Ưu tiên cao nhất là làm hài lòng khách hàng thông qua việc bàn giao phần mềm/sản phẩm có giá trị trong thời gian sớm và liên tục.
+- Sẵn sàng cho những thay đổi - thậm chí những thay đổi này xuất hiện muộn. Quy trình Agile khai thác sự thay đổi này nhằm gia tăng tính cạnh tranh cho khách hàng.
+- Cung cấp phần mềm hoạt động được trong thời gian ngắn từ 1 vài tuần đến 1 vài tháng, càng ngắn càng được ưu tiên.
+- Người kinh doanh và đội ngũ phát triển phải làm việc cùng nhau mỗi ngày trong suốt dự án
+- Xây dựng dự án xung quanh những cá nhân có động lực. Cho họ môi trường làm việc thuận lợi và sự hỗ trợ cần thiết. Hãy có niềm tin rằng họ sẽ làm tốt công việc của mình.
+- Đối thoại trực tiếp mặt đối mặt là phương pháp hữu hiệu nhất trong việc truyền đạt thông tin. 
+- Phần mềm chạy được là thước đo chính của tiến độ dự án.
+- Phát triển bền vững và duy trì việc phát triển liên tục.
+- Liên tục quan tâm đến kỹ thuật và thiết kế để tăng cường tính linh hoạt.
+- Đơn giản - nghệ thuật tối đa hóa số lượng công việc không làm - là điều cần thiết.
+- Các kiến trúc, yêu cầu và thiết kế tốt nhất được tạo nên từ các nhóm tự tổ chức.
+- Trong khoảng thời gian đều đặn, nhóm phản ánh về cách trở nên hiệu quả hơn, sau đó điều chỉnh cho phù hợp.
+4.Chiếc ô Agile: Chiếc ô Agile nhằm chỉ các phương pháp thực hành Agile phổ biến bao gồm:
+- Scrum
+- Extrem programing
+- Canban
+- Scrumban
+- Spotify
+- LSD
+- Lear software Dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
